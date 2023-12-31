@@ -234,6 +234,11 @@ strong{
     #navBarMailLink{
         display: none;
     }
+
+
+    nav{
+        font-size: 110%;
+    }
     #advantagesBox{
         flex-direction: column;
         align-items: center;
@@ -264,6 +269,10 @@ strong{
     #quoteSection p{
         width: 100%;
         font-weight: normal;
+        font-size: 120%;
+    }
+    #quoteImageBox{
+        width: 40%;
     }
     #quoteText{
         width: 90%;
