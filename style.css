@@ -252,5 +252,8 @@ strong{
     .advantageIcon{
         width: 10%;
     }
+    p{
+        font-size: 115%;
+    }
 
 }
