@@ -247,13 +247,26 @@ strong{
         align-items: center;
     }
     h2{
-        font-size: 200%;
+        font-size: 250%;
+    }
+    .advantage{
+        width: 90%;
     }
     .advantageIcon{
         width: 10%;
     }
-    p{
-        font-size: 115%;
+    p, #priceText{
+        font-size: 150%;
+    }
+    #quoteSection{
+        width: 90%;
+    }
+    #quoteSection p{
+        width: 100%;
+        font-weight: normal;
+    }
+    #quoteText{
+        width: 90%;
     }
 
 }
