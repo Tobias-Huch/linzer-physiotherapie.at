@@ -58,6 +58,7 @@ nav{
     margin: auto;
     border-radius: 20px;
     padding: 1%;
+    box-shadow: 4px 4px 11px -5px rgba(0,0,0,0.46);
 }
 
 #takeSection{
@@ -66,6 +67,7 @@ nav{
     margin: 5vh auto;
     border-radius: 20px;
     padding: 1%;
+    box-shadow: 4px 4px 11px -5px rgba(0,0,0,0.46);
 }
 .advantageIcon{
     width: 20%;
@@ -117,6 +119,7 @@ nav{
     margin: auto;
     border-radius: 20px;
     padding: 1%;
+    box-shadow: 4px 4px 11px -5px rgba(0,0,0,0.46);
 }
 
 #pricesBox{
@@ -168,6 +171,7 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: 4px 4px 11px -5px rgba(0,0,0,0.46);
 }
 
 #quoteImageBox img{
@@ -201,6 +205,166 @@ strong{
     font-size: 150%;
     color: #52796F;
 }
+
+#footerBox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.footerSection{
+    height: auto;
+    width: 25%;
+}
+
+footer{
+    background-color: #52796f;
+    padding: 2.5%;
+    box-shadow: 0px -4px 11px -5px rgba(0,0,0,0.46);
+    margin-top: 15vh;
+}
+
+.footerLine{
+    width: 100%;
+    display: flex;
+    margin: 2% 0%;
+    align-items: center;
+}
+
+.footerLine img{
+    width: 7.5%;
+    margin-right: 3%;
+}
+
+.mapsBox{
+    display: flex;
+    justify-content: right;
+    width: 20vw;
+    height: 15vw;
+}
+
+.footerText, .footerLink{
+    width: 100%;
+    font-size: 110%;
+    font-weight: 100;
+}
+
+.footerLink{
+    text-decoration: none;
+    color: black;
+    margin: 2% 0%;
+    width: 100%;
+}
+.footerLinkBox{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 15%;
+    height: 100%;
+}
+
+.footerHeader{
+    font-size: 150%;
+    border-bottom: solid black 2px;
+    width: 100%;
+    margin: 2vh 0%;
+}
+
+.problemItem, .offerItem, .experienceItem{
+    border-radius: 20px;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 11px -5px rgba(0,0,0,0.46);
+    background-color: #52796f;
+}
+
+.experienceItem{
+    width: 80%;
+    margin: 1% auto;
+    font-size: 120%;
+}
+
+.experienceItem h2{
+    font-weight: normal;
+}
+#experienceItemColor1{
+    background-color: #52796f;
+}
+#experienceItemColor2{
+    background-color: #618479;
+}
+#experienceItemColor3{
+background-color: #6e8e83;
+}
+#experienceItemColor4{
+background-color: #809b90;
+}
+#experienceItemColor5{
+background-color: #8da599;
+}
+#experienceItemColor6{
+background-color: #9cb1a4;
+}
+#experienceItemColor7{
+background-color: #adbdb0;
+}
+
+
+.infoHeaderBox{
+    border-radius: 20px;
+    width: 60%;
+    text-align: center;
+    padding: 1%;
+    margin: 6% auto 1.5% auto;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #52796f;
+    color: white;
+    box-shadow: 4px 4px 11px -5px rgba(0,0,0,0.46);
+}
+
+.problemHeader{
+    font-weight: 100;
+    font-size: 200%;
+}
+
+.problemItem{
+    width: 23%;
+}
+
+.offerItem{
+    width: 31.3%;
+}
+.problemItemColorOne{
+    background-color: #84A98C;
+}
+
+.problemItemColorTwo{
+    background-color: #cad2c5;
+}
+
+.problemItemColorThree{
+    background-color: #52796f;
+    color: white;
+}
+
+#problems, #offers{
+    display: flex;
+    flex-wrap: wrap;
+}
+#problems h2, #offers h2{
+    font-weight: normal;
+    font-size: 125%;
+}
+
 /*
 #arrowContainer{
     width: 5%;
@@ -274,5 +438,23 @@ strong{
     #quoteText{
         width: 90%;
     }
+    #footerBox{
+        flex-direction: column;
+    }
+    .footerSection{
+        margin: 0;
+        width: 100%;
+    }
+    .footerLine img{
+        width: 4%;
+        margin-right: 3%;
+    }
+    .footerLinkBox{
+        margin: 0%;
+    }
+    .footerLink{
+        margin: 1% 0%;
+    }
+
 
 }
