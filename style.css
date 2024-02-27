@@ -77,20 +77,28 @@ nav{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    padding: 3%;
+    padding: 0% 3%;
 }
 
 #takeBox{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    padding: 3%;
+    padding: 0% 3%;
+}
+
+#takeBox, #priceText, #advantagesBox{
+    margin-bottom: 2.5vh;
+}
+
+#iOfferHeader, #takeHeader, #priceHeader{
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
 }
 
 #takeHeader{
     text-align: center;
     width: 100%;
-    margin: 5vh 0;
     color: white;
     font-size: 400%;
 }
@@ -107,7 +115,6 @@ nav{
 #iOfferHeader{
     text-align: center;
     width: 100%;
-    margin: 5vh 0;
     color: white;
     font-size: 400%;
 }
@@ -146,8 +153,6 @@ nav{
     text-align: center;
     font-size: 400%;
     width: 100%;
-    margin-top: 5vh;
-    margin-bottom: 2.5vh;
     color: white;
 }
 #priceText{
@@ -156,7 +161,7 @@ nav{
     border-radius: 20px;
     text-align: center;
     padding: 2%;
-    margin: auto;
+    margin: auto auto 5vh;
     font-size: 115%;
 }
 
@@ -275,7 +280,6 @@ footer{
 .problemItem, .offerItem, .experienceItem{
     border-radius: 20px;
     text-align: center;
-    padding: 1%;
     margin: 1%;
     height: 6vh;
     display: flex;
@@ -283,6 +287,7 @@ footer{
     align-items: center;
     box-shadow: 4px 4px 11px -5px rgba(0,0,0,0.46);
     background-color: #52796f;
+    padding: 5%;
 }
 
 .experienceItem{
@@ -321,8 +326,8 @@ background-color: #adbdb0;
     border-radius: 20px;
     width: 60%;
     text-align: center;
-    padding: 1%;
-    margin: 6% auto 1.5% auto;
+    padding: 5%;
+    margin: 12% auto 5% auto;
     height: 6vh;
     display: flex;
     justify-content: center;
@@ -339,6 +344,7 @@ background-color: #adbdb0;
 
 .problemItem{
     width: 23%;
+
 }
 
 .offerItem{
