@@ -7,7 +7,7 @@ html{scroll-behavior:smooth}
 }
 
 p{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 h2{
@@ -236,6 +236,7 @@ footer{
     box-shadow: 0px -4px 11px -5px rgba(0,0,0,0.46);
     margin-top: 15vh;
     color: #cad2c5;
+    font-size: 1.4rem;
 }
 
 .footerLine{
@@ -408,7 +409,7 @@ background-color: #adbdb0;
     transition: transform 1s;
 }*/
 
-@media only screen and (max-width: 1470px) {
+@media only screen and (max-width: 1000px) {
     #navBarMailLink{
         display: none;
     }
