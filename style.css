@@ -362,7 +362,7 @@ background-color: #adbdb0;
 }
 
 .problemHeader{
-    font-weight: 100;
+    font-weight: 400;
     font-size: 200%;
 }
 
@@ -445,6 +445,10 @@ background-color: #adbdb0;
         flex-direction: column;
         align-items: center;
     }
+    h1{
+        font-size: 2.5rem;
+    }
+
     h2{
         font-size: 250%;
     }
