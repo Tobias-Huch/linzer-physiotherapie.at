@@ -508,7 +508,9 @@ background-color: #adbdb0;
         height: 20vh;
     }
 
-
+    .footerText, .footerLink{
+        font-size: 1.4rem;
+    }
 
 
 
